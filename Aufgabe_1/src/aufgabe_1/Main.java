@@ -3,6 +3,7 @@ package aufgabe_1;
 import java.util.Scanner;
 
 public class Main {
+//	"Hallo Welt"
 
 	public static void main(String[] args) {
 
