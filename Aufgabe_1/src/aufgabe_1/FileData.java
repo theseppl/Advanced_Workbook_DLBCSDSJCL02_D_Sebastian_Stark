@@ -8,9 +8,6 @@ public class FileData {
 
 	public long getFileDatas(String path) {
 
-//		/Users/sebastianstark/eclipseIU/JAVA2/meineDateien
-//		/Users/sebastianstark/eclipseIU/JAVA2/meineDateien/artikelListe.csv
-
 		File inputPath = new File(path);
 		File[] fileArray = inputPath.listFiles();
 
@@ -42,3 +39,6 @@ public class FileData {
 	}
 
 }
+
+///Users/sebastianstark/eclipseIU/JAVA2/meineDateien
+///Users/sebastianstark/eclipseIU/JAVA2/meineDateien/artikelListe.csv
