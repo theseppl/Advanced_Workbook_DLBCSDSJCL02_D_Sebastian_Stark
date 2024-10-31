@@ -14,7 +14,8 @@ public class Main {
 		long totalSize = directory1.getFileDatas(path);
 
 		if (totalSize != 0) {
-			System.out.println("\nGesamtgröße des Verzeichnisses: " + path + " inkl. aller Unterverzeichnisse" + " = "
+			System.out.println("\nGesamtgröße des Verzeichnisses: " + path + 
+					" inkl. aller Unterverzeichnisse" + " = "
 					+ totalSize + " Byte");
 		}
 		
